@@ -3,8 +3,8 @@
   <metadata>
     <id>SharkByte.RemoteTea.Net</id>
     <version>$version$</version>
-    <owners>Wes Day</owners>
-    <authors>Wes Day</authors>
+    <owners>Wes Day / Galen Bancroft</owners>
+    <authors>Wes Day / Galen Bancroft</authors>
     <summary>
       A pure C# implementation of ONC/RPC. RemoteTea.Net is a port of the pure Java RemoteTea package.
       Upgraded to target the .NET Framework 4.8.
@@ -16,9 +16,9 @@ https://sourceforge.net/p/remoteteanet
 Git commit hash: $commit_id$
     </description>
     <language>en-US</language>
-    <projectUrl>https://github.com/wespday/RemoteTea.Net</projectUrl>
-    <licenseUrl>https://github.com/wespday/RemoteTea.Net/blob/master/LICENSE</licenseUrl>
-    <copyright>Copyright (c) 2018 All Authors Under GPL v2. All rights reserved.</copyright>
+    <projectUrl>https://github.com/galenbancroft/RemoteTea.Net</projectUrl>
+    <licenseUrl>https://github.com/galenbancroft/RemoteTea.Net/blob/master/LICENSE</licenseUrl>
+    <copyright>Copyright (c) 2019 All Authors Under GPL v2. All rights reserved.</copyright>
     <tags>rpc oncrpc</tags>
     <references>
       <reference file="RemoteTea.Net.dll" />
