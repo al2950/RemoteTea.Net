@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>org.acplt.oncrpc.apps.jportmap</AssemblyName>
+    <RootNamespace>org.acplt.oncrpc.apps.jportmap</RootNamespace>
+    <StartupObject>org.acplt.oncrpc.apps.jportmap.csportmap</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\org.acplt.oncrpc\RemoteTea.Net.csproj" />
+  </ItemGroup>
+
+</Project>

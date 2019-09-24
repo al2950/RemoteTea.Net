@@ -31,12 +31,12 @@ namespace org.acplt.oncrpc.web
 	/// <remarks>
 	/// The abstract <code>Base64</code> class provides static methods to convert
 	/// back and forth between binary and base64-encoded data.
-        /// Converted to C# using the db4o Sharpen tool.
+	/// Converted to C# using the db4o Sharpen tool.
 	/// </remarks>
 	/// <version>$Revision: 1.1.1.1 $ $Date: 2003/08/13 12:03:44 $ $State: Exp $ $Locker:  $
-	/// 	</version>
+	/// </version>
 	/// <author>Harald Albrecht</author>
-        /// <author>Jay Walters</author>
+	/// <author>Jay Walters</author>
 	public abstract class Base64
 	{
 		/// <summary>Converts binary data into base64 encoded data.</summary>

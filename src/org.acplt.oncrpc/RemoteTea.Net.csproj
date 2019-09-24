@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net472;netstandard20</TargetFrameworks>
+    <AssemblyName>org.acplt.oncrpc</AssemblyName>
+    <RootNamespace>org.acplt.oncrpc</RootNamespace>
+    <PackageId>GB1.RemoteTea.Net</PackageId>
+    <Version>1.1.0.1</Version>
+    <Authors>Galen Bancroft</Authors>
+    <Company />
+    <Description>A pure C# implementation of ONC/RPC. RemoteTea.Net is a port of the pure Java RemoteTea package.
+
+Forked from Jay Walter's SourceForge repository at:
+      https://sourceforge.net/p/remoteteanet
+Forked from Wes Day's GitHub repository at:
+      https://github.com/wespday/RemoteTea.Net
+
+Then updated by Galen Bancroft to support .NET Standard 2.0 and .NET Framework 4.72 as the 'GB1.RemoteTea.Net' NuGet package at this location:
+      https://www.nuget.org/packages/GB1.RemoteTea.Net/
+
+with the source code in GitHub repository at:
+      https://github.com/galenbancroft/RemoteTea.Net
+    </Description>
+    <Product>GB1.RemoteTea.Net</Product>
+    <PackageProjectUrl>https://www.nuget.org/packages/GB1.RemoteTea.Net/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/galenbancroft/RemoteTea.Net</RepositoryUrl>
+    <PackageTags>rpc;oncrpc;net472;netstandard20</PackageTags>
+    <PackageReleaseNotes>This now updated to support .NET Standard 2.0 and .NET Framework 4.72 as a NuGet package.</PackageReleaseNotes>
+    <AssemblyVersion>1.1.0.1</AssemblyVersion>
+    <FileVersion>1.1.0.1</FileVersion>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <!--  
+  NOTES
+  Porting a .NET Framework Library to .NET Standard
+  https://www.michaeltaylorp3.net/porting-a-net-framework-library-to-net-standard/  
+  -->
+</Project>

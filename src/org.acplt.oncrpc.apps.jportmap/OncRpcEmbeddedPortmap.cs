@@ -27,6 +27,7 @@ using System.Net;
 using System;
 using org.acplt.oncrpc.server;
 using System.IO;
+
 namespace org.acplt.oncrpc.apps.jportmap
 {
 	/// <summary>
@@ -40,11 +41,11 @@ namespace org.acplt.oncrpc.apps.jportmap
 	/// the (operating) system does not already provide the portmap service.
 	/// If an embedded portmap service is started it will stop only after the
 	/// last ONC/RPC program has been deregistered.
-        /// Converted to C# using the db4o Sharpen tool.
+	/// Converted to C# using the db4o Sharpen tool.
 	/// </remarks>
 	/// <version>$Revision: 1.2 $ $Date: 2003/08/14 08:00:08 $ $State: Exp $ $Locker:  $</version>
 	/// <author>Harald Albrecht</author>
-        /// <author>Jay Walters</author>
+	/// <author>Jay Walters</author>
 	public class OncRpcEmbeddedPortmap
 	{
 		/// <summary>

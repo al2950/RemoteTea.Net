@@ -22,10 +22,10 @@
  * 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
+using org.acplt.oncrpc.server;
 using System.Net;
 using System.Net.Sockets;
-using System;
-using org.acplt.oncrpc.server;
+
 namespace org.acplt.oncrpc.apps.jportmap
 {
 	/// <summary>
@@ -39,11 +39,11 @@ namespace org.acplt.oncrpc.apps.jportmap
 	/// provided for this purpose) or as part of an application. In this case you
 	/// should check first for another portmap already running before starting your
 	/// own one.
-        /// Converted to C# using the db4o Sharpen tool.
+	/// Converted to C# using the db4o Sharpen tool.
 	/// </remarks>
 	/// <version>$Revision: 1.2 $ $Date: 2003/08/14 11:26:50 $ $State: Exp $ $Locker:  $</version>
 	/// <author>Harald Albrecht</author>
-        /// <author>Jay Walters</author>
+	/// <author>Jay Walters</author>
 	public class jportmap : OncRpcServerStub, OncRpcDispatchable
 	{
 		/// <summary>

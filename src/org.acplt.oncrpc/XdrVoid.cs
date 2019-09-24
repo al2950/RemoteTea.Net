@@ -37,12 +37,12 @@ namespace org.acplt.oncrpc
 	/// data type wrappers. As for these classes, the XDR data type wrapper classes
 	/// follow the concept of values with no identity, so you are not allowed to
 	/// change the value after you've created a value object.
-        /// Converted to C# using the db4o Sharpen tool.
+	/// Converted to C# using the db4o Sharpen tool.
 	/// </remarks>
 	/// <version>$Revision: 1.1.1.1 $ $Date: 2003/08/13 12:03:41 $ $State: Exp $ $Locker:  $
-	/// 	</version>
+	/// </version>
 	/// <author>Harald Albrecht</author>
-        /// <author>Jay Walters</author>
+	/// <author>Jay Walters</author>
 	public class XdrVoid : org.acplt.oncrpc.XdrAble
 	{
 		/// <summary>

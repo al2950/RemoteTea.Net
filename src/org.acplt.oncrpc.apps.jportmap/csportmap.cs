@@ -1,7 +1,4 @@
-using System.Net;
-using System.Net.Sockets;
 using System;
-using org.acplt.oncrpc.server;
 
 namespace org.acplt.oncrpc.apps.jportmap
 {
