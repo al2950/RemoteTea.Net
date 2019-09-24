@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteTea.Net", "src\org.acplt.oncrpc\RemoteTea.Net.csproj", "{2D8A239A-E614-4BC9-8DBB-544AE1127939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GB1.RemoteTea.Net", "src\org.acplt.oncrpc\GB1.RemoteTea.Net.csproj", "{2D8A239A-E614-4BC9-8DBB-544AE1127939}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TUVienna.CS_CUP.Runtime", "src\TUVienna.CS_CUP.Runtime\TUVienna.CS_CUP.Runtime.csproj", "{E3E62681-7103-42AA-A3E7-35E6B9F66338}"
 EndProject

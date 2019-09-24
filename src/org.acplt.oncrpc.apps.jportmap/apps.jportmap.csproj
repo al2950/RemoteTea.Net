@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\org.acplt.oncrpc\RemoteTea.Net.csproj" />
+    <ProjectReference Include="..\org.acplt.oncrpc\GB1.RemoteTea.Net.csproj" />
   </ItemGroup>
 
 </Project>

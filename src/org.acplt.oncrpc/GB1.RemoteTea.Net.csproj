@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net472;netstandard20</TargetFrameworks>
-    <AssemblyName>org.acplt.oncrpc</AssemblyName>
+    <AssemblyName>GB1.RemoteTea.Net</AssemblyName>
     <RootNamespace>org.acplt.oncrpc</RootNamespace>
     <PackageId>GB1.RemoteTea.Net</PackageId>
-    <Version>1.1.0.1</Version>
+    <Version>1.1.0.2</Version>
     <Authors>Galen Bancroft</Authors>
     <Company />
     <Description>A pure C# implementation of ONC/RPC. RemoteTea.Net is a port of the pure Java RemoteTea package.
@@ -25,8 +25,8 @@ with the source code in GitHub repository at:
     <RepositoryUrl>https://github.com/galenbancroft/RemoteTea.Net</RepositoryUrl>
     <PackageTags>rpc;oncrpc;net472;netstandard20</PackageTags>
     <PackageReleaseNotes>This now updated to support .NET Standard 2.0 and .NET Framework 4.72 as a NuGet package.</PackageReleaseNotes>
-    <AssemblyVersion>1.1.0.1</AssemblyVersion>
-    <FileVersion>1.1.0.1</FileVersion>
+    <AssemblyVersion>1.1.0.2</AssemblyVersion>
+    <FileVersion>1.1.0.2</FileVersion>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
